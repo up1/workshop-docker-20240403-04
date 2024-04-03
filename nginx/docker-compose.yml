@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: demo:2.0
+    image: somkiat/demo:2.0
     build:
       context: .
       dockerfile: Dockerfile
