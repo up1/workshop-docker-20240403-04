@@ -3,4 +3,5 @@ services:
   web:
     image: web-vue:1.0
     build: .
-    
+    ports:
+      - "9999:80"
